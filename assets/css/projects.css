@@ -40,9 +40,9 @@ header {
   padding: 3rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-  background: #ffffff6a;
+  background: #f6f4ebc0;
   border-radius: 20px;
 }
 .article-image {
@@ -53,12 +53,18 @@ header {
 .article-image img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   border-radius: 20px 20px 0 0;
 }
 .article-card {
-  background: #b5dced;
+  align-self: start;
+  background: #91C8E4;
   border-radius: 20px;
   transition: 0.3s;
+  text-decoration: none;
 }
 .article-card:hover {
   box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
@@ -83,9 +89,9 @@ header {
     margin: 0.5rem 0;
   }
 .article-content .card-excerpt {
-  font-size: 1rem;
+  font-size: 1.13rem;
   line-height: 1.5rem;
-  color: #4e5f7b;
+  color: #222935;
   margin: 0;
 }
 
